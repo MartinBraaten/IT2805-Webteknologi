@@ -1,0 +1,611 @@
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 2751px;
+
+background: #FFFFFF;
+
+
+/* despina-galani-pXzOEx8lI3I-unsplash 1 */
+
+position: absolute;
+width: 1445px;
+height: 1806px;
+left: 0px;
+top: 945px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(despina-galani-pXzOEx8lI3I-unsplash.jpg);
+
+
+/* loes-klinker-JXcgx_U7eh4-unsplash 1 */
+
+position: absolute;
+width: 1444px;
+height: 962px;
+left: 1px;
+top: -17px;
+
+background: url(loes-klinker-JXcgx_U7eh4-unsplash.jpg);
+
+
+/* Frame 3 */
+
+position: absolute;
+width: 83px;
+height: 35px;
+left: 419px;
+top: 56px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1440px;
+height: 146px;
+left: -419px;
+top: -56px;
+
+background: #222222;
+
+
+/* LogoSample_ByTailorBrands 1 */
+
+position: absolute;
+width: 134px;
+height: 135px;
+left: -406px;
+top: -50px;
+
+background: url(LogoSample_ByTailorBrands.png);
+
+
+/* HJEM */
+
+position: absolute;
+width: 82px;
+height: 35px;
+left: -130px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* SØKE JOBB */
+
+position: absolute;
+width: 157px;
+height: 35px;
+left: 760px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* RESERVASJON */
+
+position: absolute;
+width: 203px;
+height: 35px;
+left: 22px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* KONTAKT INFO */
+
+position: absolute;
+width: 207px;
+height: 35px;
+left: 879px;
+top: 56px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* MENY */
+
+position: absolute;
+width: 83px;
+height: 35px;
+left: 720px;
+top: 56px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* Frame 1 */
+
+position: absolute;
+width: 1440px;
+height: 2751px;
+left: 0px;
+top: 0px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 1349px;
+height: 828px;
+left: calc(50% - 1349px/2 + 3.5px);
+top: 1833px;
+
+border: 2px solid #FFFFFF;
+box-sizing: border-box;
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
+
+position: absolute;
+width: 658px;
+height: 350px;
+left: 91px;
+top: 2015px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* Emilio Biofrafi */
+
+position: absolute;
+width: 186px;
+height: 35px;
+left: 326px;
+top: 1905px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 450px;
+height: 641px;
+left: 820px;
+top: 1932px;
+
+background: #000000;
+
+
+/* xuan-nguyen-Pia3omPpQus-unsplash 1 */
+
+position: absolute;
+width: 964px;
+height: 728px;
+left: 593px;
+top: 1850px;
+
+background: url(xuan-nguyen-Pia3omPpQus-unsplash.jpg);
+
+
+/* Frame 2 */
+
+position: absolute;
+width: 507px;
+height: 59px;
+left: 467px;
+top: 1056px;
+
+
+
+/* Velkommen Til Emilios */
+
+position: absolute;
+width: 304px;
+height: 35px;
+left: 0px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
+
+position: absolute;
+width: 1349px;
+height: 607px;
+left: -418px;
+top: 152px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* Group 1 */
+
+position: relative;
+width: 1440px;
+height: 458px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #555555;
+
+
+/* KONTAKT INFO */
+
+position: absolute;
+left: 42.85%;
+right: 42.78%;
+top: 3.71%;
+bottom: 88.65%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFFFFF;
+
+
+
+/* Group 6 */
+
+position: absolute;
+width: 186px;
+height: 260px;
+left: 46px;
+top: 59px;
+
+
+
+/* Mailadresse@example.com */
+
+position: absolute;
+left: 3.19%;
+right: 83.89%;
+top: 65.72%;
+bottom: 30.35%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 3.75%;
+right: 84.44%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(mail-removebg-preview.png);
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 226px;
+height: 219px;
+left: 37px;
+top: 30px;
+
+background: #FFFFFF;
+
+
+/* Group 5 */
+
+position: absolute;
+width: 170px;
+height: 262px;
+left: 344px;
+top: 59px;
+
+
+
+/* 123 45 678 */
+
+position: absolute;
+left: 26.32%;
+right: 66.74%;
+top: 65.07%;
+bottom: 29.91%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 23.89%;
+right: 64.31%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(download-removebg-preview.png);
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 223px;
+height: 213px;
+left: 313px;
+top: 32px;
+
+background: #FFFFFF;
+
+
+/* Group 3 */
+
+position: absolute;
+width: 260px;
+height: 260px;
+left: 1172px;
+top: 59px;
+
+
+
+/* https://www.instagram.com/username */
+
+position: absolute;
+left: 81.39%;
+right: 0.56%;
+top: 65.72%;
+bottom: 30.35%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 84.51%;
+right: 3.68%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(download__1_-removebg-preview.png);
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 220px;
+height: 241px;
+left: 1186px;
+top: 24px;
+
+background: #FFFFFF;
+
+
+/* Group 2 */
+
+position: absolute;
+width: 191px;
+height: 269px;
+left: 625px;
+top: 59px;
+
+
+
+/* Mandag-Fredag: 16:00-22:00 Lørdag: 17:00-23:30 */
+
+position: absolute;
+left: 43.4%;
+right: 43.33%;
+top: 63.76%;
+bottom: 28.38%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 44.1%;
+right: 44.1%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(clock_icon_128908.png);
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 212px;
+height: 176px;
+left: 612px;
+top: 62px;
+
+background: #FFFFFF;
+
+
+/* Group 4 */
+
+position: absolute;
+width: 299px;
+height: 384px;
+left: 861px;
+top: 59px;
+
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 59.79%;
+right: 19.44%;
+top: 59.83%;
+bottom: 3.28%;
+
+background: #C0EEC0;
+
+
+/* Kart API */
+
+position: absolute;
+left: 67.64%;
+right: 27.22%;
+top: 75.76%;
+bottom: 19.21%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Eksempelgate 15, 7030 Trondheim */
+
+position: absolute;
+left: 62.15%;
+right: 21.81%;
+top: 55.9%;
+bottom: 40.17%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 64.31%;
+right: 23.89%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(png-transparent-computer-icons-symbol-icon-design-pin-miscellaneous-pin-address-removebg-preview.png);
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 194px;
+height: 208px;
+left: 909px;
+top: 41px;
+
+background: #FFFFFF;

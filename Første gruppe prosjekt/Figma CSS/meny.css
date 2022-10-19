@@ -1,0 +1,1229 @@
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1911px;
+
+background: #FFFFFF;
+
+
+/* despina-galani-pXzOEx8lI3I-unsplash 1 */
+
+position: absolute;
+width: 1445px;
+height: 1806px;
+left: -3px;
+top: 141px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(despina-galani-pXzOEx8lI3I-unsplash.jpg);
+
+
+/* Frame 3 */
+
+position: absolute;
+width: 83px;
+height: 35px;
+left: 419px;
+top: 56px;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1440px;
+height: 146px;
+left: -419px;
+top: -56px;
+
+background: #222222;
+
+
+/* LogoSample_ByTailorBrands 1 */
+
+position: absolute;
+width: 134px;
+height: 135px;
+left: -406px;
+top: -50px;
+
+background: url(LogoSample_ByTailorBrands.png);
+
+
+/* HJEM */
+
+position: absolute;
+width: 82px;
+height: 35px;
+left: -130px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* SØKE JOBB */
+
+position: absolute;
+width: 157px;
+height: 35px;
+left: 760px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* RESERVASJON */
+
+position: absolute;
+width: 203px;
+height: 35px;
+left: 22px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* KONTAKT INFO */
+
+position: absolute;
+width: 207px;
+height: 35px;
+left: 460px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* MENY */
+
+position: absolute;
+width: 83px;
+height: 35px;
+left: 301px;
+top: 0px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+
+
+/* Group 7 */
+
+position: absolute;
+width: 1233px;
+height: 1549px;
+left: 103px;
+top: 269px;
+
+
+
+/* Rectangle 14 */
+
+position: absolute;
+width: 1233px;
+height: 1549px;
+left: 103px;
+top: 269px;
+
+background: #FFF6DD;
+
+
+/* MENY */
+
+position: absolute;
+width: 165px;
+height: 70px;
+left: 637px;
+top: 316px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 70px;
+
+color: #000000;
+
+
+
+/* Group 9 */
+
+position: absolute;
+width: 1048px;
+height: 64px;
+left: 187px;
+top: 1362px;
+
+
+
+/* XXX,- */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 1176px;
+top: 1374px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rett 9 */
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 187px;
+top: 1362px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 879px;
+height: 0px;
+left: 282px;
+top: 1380px;
+
+border: 1px solid #000000;
+transform: rotate(0.24deg);
+
+
+/* Ingredienser og alergener */
+
+position: absolute;
+width: 227px;
+height: 23px;
+left: 187px;
+top: 1403px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+/* Group 10 */
+
+position: absolute;
+width: 1049px;
+height: 58px;
+left: 187px;
+top: 1249px;
+
+
+
+/* XXX,- */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 1177px;
+top: 1261px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rett 8 */
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 188px;
+top: 1249px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 879px;
+height: 0px;
+left: 283px;
+top: 1267px;
+
+border: 1px solid #000000;
+transform: rotate(0.24deg);
+
+
+/* Ingredienser og alergener */
+
+position: absolute;
+width: 227px;
+height: 23px;
+left: 187px;
+top: 1284px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+/* Group 11 */
+
+position: absolute;
+width: 1048px;
+height: 64px;
+left: 187px;
+top: 1023px;
+
+
+
+/* XXX,- */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 1176px;
+top: 1035px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rett 6 */
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 187px;
+top: 1023px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 879px;
+height: 0px;
+left: 282px;
+top: 1041px;
+
+border: 1px solid #000000;
+transform: rotate(0.24deg);
+
+
+/* Ingredienser og alergener */
+
+position: absolute;
+width: 227px;
+height: 23px;
+left: 187px;
+top: 1064px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+/* Group 12 */
+
+position: absolute;
+width: 1048px;
+height: 58px;
+left: 187px;
+top: 1136px;
+
+
+
+/* XXX,- */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 1176px;
+top: 1148px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rett 7 */
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 187px;
+top: 1136px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 879px;
+height: 0px;
+left: 282px;
+top: 1154px;
+
+border: 1px solid #000000;
+transform: rotate(0.24deg);
+
+
+/* Ingredienser og alergener */
+
+position: absolute;
+width: 227px;
+height: 23px;
+left: 187px;
+top: 1171px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+/* Group 13 */
+
+position: absolute;
+width: 1048px;
+height: 64px;
+left: 187px;
+top: 910px;
+
+
+
+/* XXX,- */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 1176px;
+top: 922px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rett 5 */
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 187px;
+top: 910px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 879px;
+height: 0px;
+left: 282px;
+top: 928px;
+
+border: 1px solid #000000;
+transform: rotate(0.24deg);
+
+
+/* Ingredienser og alergener */
+
+position: absolute;
+width: 227px;
+height: 23px;
+left: 187px;
+top: 951px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+/* Group 14 */
+
+position: absolute;
+width: 1048px;
+height: 58px;
+left: 187px;
+top: 797px;
+
+
+
+/* XXX,- */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 1176px;
+top: 809px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rett 4 */
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 187px;
+top: 797px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 879px;
+height: 0px;
+left: 282px;
+top: 815px;
+
+border: 1px solid #000000;
+transform: rotate(0.24deg);
+
+
+/* Ingredienser og alergener */
+
+position: absolute;
+width: 227px;
+height: 23px;
+left: 188px;
+top: 832px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+/* Group 15 */
+
+position: absolute;
+width: 1048px;
+height: 58px;
+left: 187px;
+top: 684px;
+
+
+
+/* XXX,- */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 1176px;
+top: 696px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rett 2 */
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 187px;
+top: 684px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 879px;
+height: 0px;
+left: 282px;
+top: 702px;
+
+border: 1px solid #000000;
+transform: rotate(0.24deg);
+
+
+/* Ingredienser og alergener */
+
+position: absolute;
+width: 227px;
+height: 23px;
+left: 187px;
+top: 719px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+/* Group 16 */
+
+position: absolute;
+width: 1048px;
+height: 58px;
+left: 187px;
+top: 571px;
+
+
+
+/* XXX,- */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 1176px;
+top: 583px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rett 2 */
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 187px;
+top: 571px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 879px;
+height: 0px;
+left: 282px;
+top: 589px;
+
+border: 1px solid #000000;
+transform: rotate(0.24deg);
+
+
+/* Ingredienser og alergener */
+
+position: absolute;
+width: 227px;
+height: 23px;
+left: 187px;
+top: 606px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+/* Group 8 */
+
+position: absolute;
+width: 1048px;
+height: 52px;
+left: 187px;
+top: 458px;
+
+
+
+/* XXX,- */
+
+position: absolute;
+width: 59px;
+height: 29px;
+left: 1176px;
+top: 470px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+
+color: #000000;
+
+
+
+/* Rett 1 */
+
+position: absolute;
+width: 79px;
+height: 35px;
+left: 187px;
+top: 458px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 879px;
+height: 0px;
+left: 282px;
+top: 476px;
+
+border: 1px solid #000000;
+transform: rotate(0.24deg);
+
+
+/* Ingredienser og alergener */
+
+position: absolute;
+width: 227px;
+height: 23px;
+left: 187px;
+top: 487px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+
+color: #000000;
+
+
+
+/* Pris */
+
+position: absolute;
+width: 52px;
+height: 35px;
+left: 1176px;
+top: 386px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Rett */
+
+position: absolute;
+width: 55px;
+height: 35px;
+left: 187px;
+top: 393px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+
+
+/* Group 1 */
+
+position: relative;
+width: 1440px;
+height: 458px;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #555555;
+
+
+/* KONTAKT INFO */
+
+position: absolute;
+left: 42.85%;
+right: 42.78%;
+top: 3.71%;
+bottom: 88.65%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFFFFF;
+
+
+
+/* Group 6 */
+
+position: absolute;
+width: 186px;
+height: 260px;
+left: 46px;
+top: 59px;
+
+
+
+/* Mailadresse@example.com */
+
+position: absolute;
+left: 3.19%;
+right: 83.89%;
+top: 65.72%;
+bottom: 30.35%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 4 */
+
+position: absolute;
+left: 3.75%;
+right: 84.44%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(mail-removebg-preview.png);
+
+
+/* Rectangle 9 */
+
+position: absolute;
+width: 226px;
+height: 219px;
+left: 37px;
+top: 30px;
+
+background: #FFFFFF;
+
+
+/* Group 5 */
+
+position: absolute;
+width: 170px;
+height: 262px;
+left: 344px;
+top: 59px;
+
+
+
+/* 123 45 678 */
+
+position: absolute;
+left: 26.32%;
+right: 66.74%;
+top: 65.07%;
+bottom: 29.91%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 3 */
+
+position: absolute;
+left: 23.89%;
+right: 64.31%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(download-removebg-preview.png);
+
+
+/* Rectangle 10 */
+
+position: absolute;
+width: 223px;
+height: 213px;
+left: 313px;
+top: 32px;
+
+background: #FFFFFF;
+
+
+/* Group 3 */
+
+position: absolute;
+width: 260px;
+height: 260px;
+left: 1172px;
+top: 59px;
+
+
+
+/* https://www.instagram.com/username */
+
+position: absolute;
+left: 81.39%;
+right: 0.56%;
+top: 65.72%;
+bottom: 30.35%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 6 */
+
+position: absolute;
+left: 84.51%;
+right: 3.68%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(download__1_-removebg-preview.png);
+
+
+/* Rectangle 11 */
+
+position: absolute;
+width: 220px;
+height: 241px;
+left: 1186px;
+top: 24px;
+
+background: #FFFFFF;
+
+
+/* Group 2 */
+
+position: absolute;
+width: 191px;
+height: 269px;
+left: 625px;
+top: 59px;
+
+
+
+/* Mandag-Fredag: 16:00-22:00 Lørdag: 17:00-23:30 */
+
+position: absolute;
+left: 43.4%;
+right: 43.33%;
+top: 63.76%;
+bottom: 28.38%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 7 */
+
+position: absolute;
+left: 44.1%;
+right: 44.1%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(clock_icon_128908.png);
+
+
+/* Rectangle 12 */
+
+position: absolute;
+width: 212px;
+height: 176px;
+left: 612px;
+top: 62px;
+
+background: #FFFFFF;
+
+
+/* Group 4 */
+
+position: absolute;
+width: 299px;
+height: 384px;
+left: 861px;
+top: 59px;
+
+
+
+/* Rectangle 8 */
+
+position: absolute;
+left: 59.79%;
+right: 19.44%;
+top: 59.83%;
+bottom: 3.28%;
+
+background: #C0EEC0;
+
+
+/* Kart API */
+
+position: absolute;
+left: 67.64%;
+right: 27.22%;
+top: 75.76%;
+bottom: 19.21%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Eksempelgate 15, 7030 Trondheim */
+
+position: absolute;
+left: 62.15%;
+right: 21.81%;
+top: 55.9%;
+bottom: 40.17%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+left: 64.31%;
+right: 23.89%;
+top: 12.88%;
+bottom: 50%;
+
+background: url(png-transparent-computer-icons-symbol-icon-design-pin-miscellaneous-pin-address-removebg-preview.png);
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 194px;
+height: 208px;
+left: 909px;
+top: 41px;
+
+background: #FFFFFF;

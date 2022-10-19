@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<!-- Author: Julie, Martin, Sigve, Sindre og Iselin
+Date: September 22, 2021
+Purpose: Design Requirements for restaurant website
+Filename: P2_Project Design_27.html
+-->
+<html lang="no">
+  <head>
+    <title>P2 Prosjekt Design</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="CSS/p2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>P2 Prosjekt Design</h1>
+    </header>
+    <main>
+      <section id="Detaljer">
+        <h2>1. Dokumentdetaljer</h2>
+        <p>P2 Design rettningslinjer</p>
+        <p>Julie, Martin, Sigve, Sindre og Iselin</p>
+        <p><span>September 22, 2021</span></p>
+      </section>
+      <section id="Client">
+        <h2>2. Administrative detaljer</h2>
+        <p>Klientens navn: Emilios (fiktiv)</p>
+        <p>Hans posisjon i selskapet: eier og leder</p>
+      </section>
+      <section id="Purpose">
+        <h2>3. Grunn, mål og målgruppe</h2>
+        <p>
+          Målet med denne nettsiden er å presentere restauranten til Emilio. Vi
+          skal presentere restauranten på en fin og enkel måte slik at det er
+          lett for forbrukeren å få oversikt over hva restauranten har å by på.
+          Nettsiden skal vise menyen og kontaktinformasjonen til Emilio. Det vil
+          også være mulig å bestille bord. Nettsiden er for kunder som er
+          interessert i gresk mat, men som og vil vite mer om restauranten til
+          Emilio.
+        </p>
+      </section>
+      <section id="Navigasjon">
+        <h2>4. Navigasjonsstruktur</h2>
+        <p>
+          Nettsiden er strukturert på en måte slik at man først kommer inn på en
+          hovedside. Videre er nettsiden strukturert i et klikkstruktur format
+          (clique-structure). Det vil si at man kan hoppe til alle sidene fra
+          forsiden. Denne klikkstrukturen gjennomføres ved hjelp av
+          navigasjonsbaren, illustrert i figur 1. På restauranten sin hovedside
+          vil man få opp en navigasjonsbar med ulike valg. Navigasjonsbaren
+          består av ulike katogorier. Meningen med navigasjonsbaren er å gi
+          enkel tilgang til de forskjellige funksjonalitetene.
+        </p>
+        <p>
+          Navigasjonssystemet er utformet på denne måten fordi dette fører til
+          en effektiv og brukervennlig nettside. Det er enkelt å navigere seg
+          fra menysiden til f.eks kontaktinfo, og dette medfører en naturlig
+          handlingssekvens uten å skjule mye funksjonalitet. Vi ønsker å utforme
+          en nettside med god struktur, slik at brukerne opplever siden som
+          enkel å bruke.
+        </p>
+        <figure>
+          <img id="NavBar-img" src="img/NavBar.png" alt="Navigasjonssystemet" />
+          <img
+            id="navigasjonwebtek-img"
+            src="img/navigasjonwebtek.png"
+            alt="Navigasjon"
+          />
+        </figure>
+      </section>
+      <section id="Layout">
+        <h2>5. Sideoppsett og visning</h2>
+        <p>
+          Vi vil at nettsiden vår skal appellere til kunder og gi dem lyst til å
+          besøke restauranten til Emilio. Den skal altså være enkel og
+          oversiktlig, men også elegant. Nettsiden skal gjøre det lett for
+          kunder å se menyen, booke bord og finne fram til det en leter etter.
+        </p>
+        <p>
+          Navigasjonsbaren skal altså være lett å se og oversiktlig. Denne skal
+          ligge øverst på nettsiden og fylle hele bredden. Denne skal ha svart
+          bakgrunn og hvit tekst, slik at det er lett for kunden å se hva som
+          står. Her vil kunden lett kunne gå fra hjemskjermen til menyen eller
+          til booking av bord. Når kunden hovrer over de ulike valgene i
+          navigasjonsbaren vil teksten bli lyseblå. Alle elementene i
+          navigasjonsbaren skal skrives med store bokstaver og i font size:
+          20px. På venstre side av denne navigasjonsbaren vil vi ha logoen til
+          Emilio, og på høyre side vil vi ha ikoner som linker til Emilios
+          sosiale medier (facebook, instagram, mail). Ikonene til sosiale medier
+          er ikke med på illustrasjonsbildene i neste seksjon, selv om de
+          egentlig skulle ha vært med. Faviconen til vår nettside vil være
+          logoen til Emilios restaurant.
+        </p>
+        <p>
+          Resten av siden vil ha et bilde i bakgrunnen, og dette bildet skal
+          fylle hele siden, utenom navigasjonsbaren og footeren. Vi skal ikke ha
+          noen marginer på sidene. Bakgrunnsbildet skal være litt mørkt, slik at
+          dette ikke tar all oppmerksomhet, men samtidig gir en følelse av
+          Hellas. Det skal også være lett å lese teksten som står skrevet over.
+          Teksten skal være hvit. Alle titler skal skrives med store bokstaver i
+          font size: 16-18px, mens resten av teksten er skrevet i små bokstaver
+          i font size: 14-16px. All tekst på vår nettside skal ha font family:
+          helvetica. Denne bakgrunnen og tekststylingen skal være lik på alle
+          våre html-filer, for å skape sammenheng gjennom hele nettsiden og
+          bevare følelsen av Hellas.
+        </p>
+        <p>
+          I bunnen av alle våre html-filer skal vi ha en footer der det står
+          kontaktinformasjonen til Emilio. Dvs. telefonnummer, mail, facebook,
+          instagram, lokasjon av restaurant, samt åpningstider. Denne skal ha
+          svart bakgrunnsfarge og hvit tekst slik som navigasjonsbaren. Ved å
+          velge en svart bakgrunn og hvit tekst vil det bli lett for kunden å
+          lese det som står.
+        </p>
+        <p>
+          Linkene som vi legger inn skal bli blå (samme blåfarge som hover
+          blåfargen i navigasjonsbaren) dersom man har vært innom disse.
+        </p>
+
+        <p>
+          Den spesifikke stylingen for nettsiden som vil gjelde alle sidene
+          finner du under:
+        </p>
+        <ul>
+          <li>Navigasjonsbar:</li>
+          <ul>
+            <li>Kontaktinfo→ linker til footer</li>
+            <li>Er øverst på nettsiden</li>
+            <li>Bakgrunn: svart</li>
+            <li>Fontfarge: hvit</li>
+            <li>Hoverfarge: lyseblå</li>
+            <li>Logo i venstre hjørne</li>
+            <li>Alt skrives med store bokstaver</li>
+            <li>Font size: 20 px</li>
+            <li>
+              Navigasjonsbaren forsinner når man scroller ned på nettsiden, og
+              kommer tilbake når man begynner å scrolle opp igjen
+            </li>
+          </ul>
+          <li>Bakgrunn på alle sidene:</li>
+          <ul>
+            <li>
+              Bakgrunnsbilde → mørkt, lite lys, lite kontrast, slik at tekst
+              over blir tydelig
+            </li>
+            <li>Ingen borders→ bilde fyller hele nettsiden</li>
+            <li>Hvit tekst over, transparent</li>
+            <li>Titteler med store bokstaver</li>
+            <ul>
+              <li>
+                Bakgrunnsbilde → mørkt, lite lys, lite kontrast, slik at tekst
+                over blir tydelig
+              </li>
+              <li>Ingen borders→ bilde fyller hele nettsiden</li>
+              <li>Hvit tekst over, transparent</li>
+              <li>Titteler med store bokstaver: Size: 16-18 px</li>
+              <li>Resten av skrift er vanlig:
+                <ul>
+                  <li>helvetica + back up font</li>
+                  <li>14-16px</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Linker: lyseblå farge, samme farge som hover
+            <ul>
+              <li>
+                Footer: kontaktinfo: telefon nr, mail, sosiale medier, copyright,
+                åpningstider, lokasjon av restaurant
+              </li>
+              <li>Ikon med sosiale medier</li>
+            </ul>
+          </li>
+        </ul>
+        <p>Se neste punkt for illustrasjonsbilder.</p>
+      </section>
+      <section id="Innhold">
+        <h2>6. Innhold</h2>
+      
+          <h3>Hjemskjerm (hjemskjerm.html):</h3>
+          <p>
+            Den første siden man kommer til når man besøker nettsiden er
+            hjemskjermen. Vi vil forsøke å lage en brukervennlig side som er
+            enkel å navigere seg i. Her vil det øverst være en navigasjonsbar
+            som har valgene: meny, kontaktinfo, reservasjoner og en søke jobb
+            side. Navigasjonsbaren skal framstå som oversiktelig og ryddig.
+            Navigasjonsbaren skal ha full bredde og er plassert øverst på siden.
+            Den skal være svart med hvit tekst. Navigasjonsbaren vil forsvinne
+            etterhvert som man scroller ned på siden, og vil komme tilbake igjen
+            dersom man begynner å scrolle opp. I tillegg vil det dukke opp et
+            galleri øverst under navigasjonsbaren. Videre under galleriet vil
+            det komme inn litt info om maten og en liten biografi om Emilio. Vi
+            ønsker å holde hjemskjermen ryddig og oversiktlig, men med nøvendig
+            informajson. Nederst på siden vil det være kontaktinfo. Her vil den
+            mest essensielle informasjonen være tilgjengelig: telefonnummer,
+            mail, åpningstider og adresse.
+          </p>
+          <p>
+            Dette er den første siden man kommer inn på. Her vil
+            navigasjonsbaren komme opp med:
+          </p>
+          <ul>
+            <li>Bildegalleri øverst under navigasjonsbar</li>
+            <li>Velkommen til Emilios: om maten…</li>
+            <li>Biografi om Emilio: hvem han er og med et bilde av han</li>
+            <li>Åpningstider, hvor restauranten er</li>
+            <li>Kontaktinformasjon helt nederst</li>
+          </ul>
+          <img id="Homepage-img" src="img/Homepage.png" alt="Homepage" />
+          <h3>Booking/ reservasjon (booking.html):</h3>
+          <p>
+            På bookingsiden vil det være en oversiktelig kalender hvor man
+            velger tidspunkt som er ledig på ønsket dato. Her er det en funksjon
+            for å sjekke ledige plasser for ønsket antall personer (maks 8).
+            Dersom man er veldig mange, vil man måtte kontakte restauranten via
+            epost eller tlf for å booke bord. Etter man har skrevet inn antall
+            personer og valgt ønsket tidspunkt så trykker man på knappen book,
+            og man mottar da en bekreftelse på mail. I tillegg vil det komme opp
+            en statusoppdateringen om at bordet er booket, eller ikke.
+          </p>
+          <p>
+            Formålet med reservasjonssiden er at kunder skal kunne reservere
+            bord på en god og intuitiv måte.
+          </p>
+          <ul>
+            <li>Egen nettside for booking</li>
+            <li>
+              Kalender hvor man velger dato og tidspunkt som er ledig den dagen,
+              med antall personer man reserverer til
+            </li>
+            <li>Kontakt oss dersom du er mer enn et bestemt antall personer</li>
+            <li>Gruppereservasjon</li>
+          </ul>
+          <img
+            id="Reservasjoner-img"
+            src="img/Reservasjoner.png"
+            alt="Reservasjoner"
+          />
+          <h3>Meny (meny.html):</h3>
+          <p>
+            På meny-siden vil man finne informasjon over hvilken mat som tilbys,
+            med evtentuelle priser og allergener. Tanken er at menyen skal være
+            enkel, ryddig og elegant uten bruk av bilder. Videre skal det være
+            en rask og enkel beskrivelse av rettene. Vi ønsker med det å utforme
+            en visuelt appelerende meny som bidrar til å få eventuelle kunder
+            til å reservere bord.
+          </p>
+          <ul>
+            <li>Enkel og ryddig</li>
+            <li>Pris og allergier, vegetarianske retter</li>
+          </ul>
+          <img id="Meny-img" src="img/Meny.png" alt="meny"/>
+          <h3>Søke jobb (sokejobb.html):</h3>
+          <p>
+            Denne siden vil inneholde en raskt deskriptiv tekst om hvordan det
+            er å jobbe i restauranten. Videre vil det bli opplyst om en epost
+            hvor man sender CV og søknad for å søke på jobben.
+          </p>
+          <ul>
+            <li>Søke jobb</li>
+            <li>Enkel og ryddig, kort forklaring</li>
+            <li>Inkluderer om det er ledig stilling</li>
+            <li>Hvordan kontakte Emilio, og krav for søknad</li>
+          </ul>
+          <img id="Jobb-img" src="img/SøkeJobb.png" alt="SøkeJobb" />
+      </section>
+      <section id="Minimum">
+        <h2>7. Minimumskrav:</h2>
+          <p>Booke bord:</p>
+          <p>
+            Denne javascriptfilen vil vise en kalender hvor man kan velge dato
+            når man har lyst til å booke bord. Datoen man trykker på vil lyse
+            opp. Det vil være mulig å velge antall personer man reserverer for,
+            og velge et tidspunkt fra en liste med forslag for den aktuelle
+            datoen, f.eks hvert 15.min. Når man har booket et bord vil det bli
+            vist en melding for at bookingen er vellykket, med informasjonen man
+            akkurat har fylt inn. Dette vil kun være en melding, da det ikke
+            eksisterer noen back-end til å håndtere faktiske reservasjoner. En
+            epost med bekreftelse vil også bli sendt til eposten man har fylt
+            inn.
+          </p>
+          <p>Modularitet:</p>
+          <p>
+            Navigasjonsbaren og kontaktinfo i footeren vil bli lagt inn med
+            javascript i alle de ulike HTML-filene, slik at en kun trenger å
+            skrive koden en gang istedenfor i alle HTML-filene.
+          </p>
+          <img id="footer-img" src="img/Footer.png" alt="Footer layout" />
+          <p>Bildegalleri på forsiden:</p>
+          <p>
+            Øverst på forsiden vil det være et galleri hvor det er bilder av
+            restauranten og maten som blir servert. Bildene blir automatisk
+            byttet ut etter et bestemt antall sekunder.
+          </p>
+          <p>Navigasjonsbar:</p>
+          <p>
+            Navigasjonsbaren øverst på siden linker til alle de ulike
+            html-filene. Denne navigasjonsbaren forsvinner når man scroller ned
+            nettsiden, men vil dukke opp igjen i det man scroller oppover igjen.
+            Navigasjonsbaren vil også ha roll down funksjon. Dvs når man holder
+            over f.eks meny i navigasjonsbaren, vil man få ulike forslag, f.eks
+            A la carte meny, 3-4-5 retters middag, vinkart, engelsk meny etc.
+          </p>
+      </section>
+      <section id="Plan">
+        <h2>8. Plan</h2>
+        <p>
+          Vi har bestemt at alle skal bidra på hver enkelt html-fil, men at
+          hvert enkelt gruppemedlem har hovedansvar for et arbeidsområde. Vi har
+          bestemt oss for å bruke gitlab, slik at det blir lettere å samarbeide.
+          I tabellen under har vi laget en oversikt over hvem som skal ha ansvar
+          for hva. Vi har lagt inn filnavnet, hva dette innebærer, samt en
+          frist. For å gjøre arbeidet vårt så oversiktlig som mulig har vi laget
+          ulike mapper som gjør det lettere for oss å få oversikt over alle
+          html-, css- og bildefilene våre.
+        </p>
+        <ul>
+          <li>hjemskjerm.html</li>
+          <li>meny.html</li>
+          <li>reservasjoner.html</li>
+          <li>sokejobb.html</li>
+          <li>css
+            <ul>
+              <li>style.css</li>
+            </ul>
+          </li>
+          <li>scripts
+            <ul>
+              <li>navigasjonsbar.js</li>
+              <li>bildegalleri.js</li>
+              <li>bookebord.js</li>
+              <li>kontaktinfo.js</li>
+            </ul>
+          </li>
+          <li>Images
+            <ul>
+              <li>emiliologo.png</li>
+              <li>emilio.png</li>
+              <li>food1.png</li>
+              <li>food2.png</li>
+              <li>food3.png</li>
+              <li>...</li>
+            </ul>
+          </li>
+        </ul>
+        <table>
+          <thead>
+            <tr>
+              <th>Filnavn</th>
+              <th>Beskrivelse</th>
+              <th>Hovedansvar</th>
+              <th>Frist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>hjemskjerm.html</td>
+              <td>
+                Hjemskjermen, den første siden man kommer til når man åpner
+                linken
+              </td>
+              <td>Iselin</td>
+              <td>18.10.2021</td>
+            </tr>
+            <tr>
+              <td>meny.html</td>
+              <td>
+                Menyen, her vil det være en oversikt over hva restauranten har
+                av mat
+              </td>
+              <td>Julie</td>
+              <td>18.10.2021</td>
+            </tr>
+            <tr>
+              <td>reservasjoner.html</td>
+              <td>Denne siden vil inneholde muligheter for bordbestilling</td>
+              <td>Martin</td>
+              <td>18.10.2021</td>
+            </tr>
+            <tr>
+              <td>sokejobb.html</td>
+              <td>
+                Her vil det være info om hvordan man kan søke jobb på
+                restauranten
+              </td>
+              <td>Sindre</td>
+              <td>18.10.2021</td>
+            </tr>
+            <tr>
+              <td>navigasjonsbar.js</td>
+              <td>
+                Vi skal ha en navigasjonsbar som skal være på alle html-filene i
+                javascript med rolldown til menyen: slik at man vil se kort om
+                hva menyen innholder
+              </td>
+              <td>Sigve</td>
+              <td>25.10.2021</td>
+            </tr>
+            <tr>
+              <td>bildegalleri.js</td>
+              <td>
+                Bildegalleri som ruller slik at man får se maten restauranten
+                har
+              </td>
+              <td>Iselin</td>
+              <td>25.10.2021</td>
+            </tr>
+            <tr>
+              <td>booking.js</td>
+              <td>
+                Bordreservasjon: vil gjøre det mulig for kunden å velge antall
+                personer og dato bord skal bookes
+              </td>
+              <td>Martin</td>
+              <td>25.10.2021</td>
+            </tr>
+            <tr>
+              <td>kontaktinfo.js</td>
+              <td>
+                Vi vil lage en footer med kontaktinfo som skal være på alle
+                html-filene i javascript
+              </td>
+              <td>Sindre</td>
+              <td>25.10.2021</td>
+            </tr>
+            <tr>
+              <td>styling.css</td>
+              <td>Stylingen til hele nettsiden</td>
+              <td>Sigve</td>
+              <td>01.11.2021</td>
+            </tr>
+            <tr>
+              <td>Siste kontroll</td>
+              <td>Sjekke at alt ser bra ut før vi leverer</td>
+              <td>Alle</td>
+              <td>08.11.2021</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer class="footer">
+      Gruppe 27: Julie, Martin, Sigve, Sindre og Iselin
+    </footer>
+  </body>
+  <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+</html>

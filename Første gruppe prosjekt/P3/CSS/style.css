@@ -1,0 +1,307 @@
+body {
+  background: url("../img/despina-galani-pXzOEx8lI3I-unsplash.jpg"); /*bakgrunnsbilde av hellas og tar vekk margin på sidene*/
+  background-size: cover;
+  margin: auto;
+  font-family: "Roboto Mono", monospace;
+  color: rgb(245, 239, 228);
+}
+
+/*bakgrunnsfarge, slik at bakgrunnen blir mørkere*/
+#gråBakgrunnsBox {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 0px;
+  padding-top: 100px;
+}
+
+/*bilde galleri i toppen av hjemskjerm*/
+#bildeGalleri {
+  display: block;
+  width: 100vw;
+  max-width: 100%;
+  height: 500px;
+  margin-left: auto; /*midt stiller bildet*/
+  margin-right: auto;
+  margin-top: 100px;
+  object-fit: cover;
+}
+
+/*bilde av Emilio*/
+#Emilio {
+  width: 300px;
+  float: right;
+  padding: 20px;
+}
+
+/*boks rundt teksten på hjemmeskjem*/
+#biografi {
+  padding: 20px;
+  margin-top: 10px;
+  max-width: 700px;
+  background-color: rgb(39, 37, 37);
+}
+
+/*tittel*/
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin-top: auto;
+}
+
+/*hvit content boks på søke jobb siden*/
+#hvitBakgrunnBox {
+  background-color: rgb(80, 78, 74);
+  width: 600px;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#container {
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  padding: 15px;
+}
+
+#textBoks {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: fit-content;
+}
+
+.containerbooking {
+  width: 100%;
+  background-color: rgb(195, 199, 199);
+  text-align: center;
+  color: black;
+  margin: 0 auto 0 auto;
+  padding: 15px;
+}
+
+/*meny-siden*/
+.container {
+  width: 800px;
+  background-color: rgb(195, 199, 199);
+  text-align: center;
+  font-family: "Lucida Handwriting", cursive, Cursive;
+  color: black;
+  margin: 60px auto 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*setter størrelsen på allergiikonene*/
+.bicons {
+  width: 22px;
+  height: 23px;
+}
+/*En svart tykk linje over strarters, main, dessert, drinks for å markere starten*/
+#starters,
+#main,
+#desserts,
+#drinks {
+  border: 3px solid black;
+  margin-top: 0;
+  width: 100%;
+}
+
+/*Skrift størrelse, sentrering og skrifttype */
+.p1 {
+  font-family: "Papyrus", fantasy, fantasy;
+  text-align: center;
+}
+.h2 {
+  font-family: "Lucida Handwriting", cursive, Cursive;
+  text-align: center;
+}
+
+#kontaktoss {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  font-family: "Roboto Mono", monospace;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+
+.kontaktIcon {
+  display: table-row;
+  align-items: center;
+  text-align: center;
+}
+
+.kontaktIcon > img,
+#socialIcon,
+#mapIcon {
+  width: 60px;
+  height: 60px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#navBar {
+  top: 0;
+  transition: top 0.3s;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: black;
+  font-family: "Roboto Mono", monospace;
+  padding: 0px;
+}
+
+.logoBox {
+  height: 90px;
+}
+
+.iconBox {
+  height: 70px;
+  width: 120px;
+  padding-bottom: 25px;
+}
+
+.icon {
+  height: 100%;
+  width: auto;
+}
+
+.logoicon {
+  height: 100%;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.nav-links li {
+  list-style: none;
+  padding-top: 30px;
+}
+
+a,
+.foot {
+  color: rgb(230, 230, 230);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.foot {
+  letter-spacing: normal;
+  font-size: max(1.2vw, 12px);
+}
+
+a:hover,
+.active {
+  color: lightskyblue;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  background-color: rgb(230, 230, 230);
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 650px) {
+  #kontaktoss {
+    flex-direction: column;
+  }
+
+  .foot {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #navBar {
+    position: fixed;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  #navBar {
+    overflow-x: hidden;
+  }
+
+  .iconBox {
+    margin-left: 30%;
+  }
+
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: black;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+
+  .nav-links li {
+    opacity: 0;
+  }
+
+  .burger {
+    display: block;
+  }
+  
+  #gråBakgrunnsBox {
+    padding-top: 10px;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+  display: flex;
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}

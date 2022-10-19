@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="img/LogoSample_ByTailorBrands–Kopi.jpg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bordreservasjon</title>
+  </head>
+  <body>
+    <nav></nav>
+    <div id="gråBakgrunnsBox">
+      <div id="reservasjon">
+        <div class="containerbooking">
+          <h1>Bordreservasjon</h1>
+          <!--- form for reservasjon av bord, sjekke om container klassen fungerer -->
+          <p>
+            For reservasjon av bord for flere enn 8 personer, ta kontakt med oss
+            på telefon 12345678 eller på epost: emilios@example.com. Vi har
+            åpent fra 16:00-23:00.
+          </p>
+          <form>
+            <label>Navn</label><br />
+            <input id="navn" type="text" required /> <br />
+            <br />
+            <label>E-post</label><br />
+            <input id="epost" type="email" required /> <br />
+            <br />
+            <label>Mobilnummer</label><br />
+            <input id="mobil" type="tel" required /> <br />
+            <br />
+
+            <label>Antall personer</label> <br />
+            <input id="antall" type="number" min="1" max="8" required /> <br />
+            <br />
+
+            <label>Dato</label> <br />
+            <input id="dato" type="date" required /> <br />
+
+            <br />
+
+            <label> Tidspunkt</label><br />
+            <label> (Fra 1600-2200)</label><br />
+            <!-- Åpningstid 1600 - 2300 -->
+            <input
+              id="tidspunkt"
+              type="time"
+              min="16:00"
+              max="22:00"
+              required
+            />
+            <br />
+            <br />
+            <input type="submit" value="Book nå" onclick="feedback()" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer id="footer"></footer>
+    <script src="Javascript/navigasjonsbar.js"></script>
+    <script src="Javascript/bookbord.js"></script>
+    <script src="Javascript/kontaktoss.js"></script>
+  </body>
+</html>

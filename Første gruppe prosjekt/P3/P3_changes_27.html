@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<!-- Author: Julie, Martin, Sigve, Sindre og Iselin
+Date: September 22, 2021
+Purpose: Design Requirements for restaurant website
+Filename: P3_changes.html
+-->
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../P2/CSS/p2.css" />
+    <link
+      rel="shortcut icon"
+      type="image/jpg"
+      href="img/LogoSample_ByTailorBrands–Kopi.jpg"
+    />
+    <title>P3 changes</title>
+  </head>
+  <body>
+    <header>
+      <h1>P3 Prosjekt Endringer</h1>
+    </header>
+    <main>
+      <section id="Detaljer">
+        <h2>1. Dokumentdetaljer</h2>
+        <p>P3 Prosjekt endringer</p>
+        <p>Julie, Martin, Sigve, Sindre og Iselin</p>
+        <p><span>November 11, 2021</span></p>
+      </section>
+      <section id="Client">
+        <h2>2. Administrative detaljer</h2>
+        <p>Klientens navn: Emilios (fiktiv)</p>
+        <p>Hans posisjon i selskapet: eier og leder</p>
+        <p>Link til nettside:</p>
+        <a
+          href="https://folk.ntnu.no/martinis/Webtek/Gruppeprosjekt/Final%20destination/hjemskjerm.html"
+          >https://folk.ntnu.no/martinis/Webtek/Gruppeprosjekt/Final%20destination/hjemskjerm.html</a
+        >
+      </section>
+      <section id="changes">
+        <h2>3. Endringer fra P2</h2>
+        <p>
+          Endringer på hjemmesiden (hjemskjerm.html): På hjemskjermen har vi
+          revidert følgende ting fra den opprinnelige skissen. Først valgte vi å
+          endre bakgrunnsfargen på boksen med biografien til rgb(39, 37, 37).
+          Dette valget tok vi av estetiske årsaker. Videre valgte vi å gå for en
+          roboto mono skrifttype i stedet for helvetica (som også er støttet av
+          alle nettlesere). Vi synes endring av skrifttypen la til rette for en
+          mer oversiktlig hjemmeside. Deretter valgte vi også å legge på en mørk
+          boks med: rgba(0, 0, 0, 0.6) for å gjøre den delvis gjennomsiktig,
+          slik man ser bildet som befinner seg i bakgrunnen, og samtidig kan
+          lese teksten enklere enn hvis boksen ikke var der.
+        </p>
+        <p>
+          Endringer på søke jobb-siden (sokejobb.html): Søkejobb-siden skulle i
+          utgangspunktet bli skrevet på en boks som skulle være hvit. Denne har
+          vi valgt å endre til grå (rgb(80, 78, 74)). Videre valgte vi å ha
+          skriften i hvit i stedet for svart. Dette valgte vi for å fremme
+          teksten ytterligere. Valget ble også tatt da det skapte en vakker
+          kontrast som passet godt inn i samspill med bakgrunnen.
+        </p>
+        <p>
+          Endringer på menysiden (menu.html): Videre har vi foretatt følgende
+          endringer fra P2: vi har valgt å ikke ha en svart linje for hver
+          matrett slik som figma-prototypen illustrerte. Deretter har vi også
+          bestemt oss for å presentere hver rett ved å først ha navnet på retten
+          øverst, så en rask beskrivelse, så allergier, så pris under der igjen,
+          og ikke pris på høyresiden slik figma prototypen illustrerer. Vi mener
+          at en slik hierarkisk oppsett appellerer til en mer elegant
+          restaurant, og på bakgrunn av dette foretok vi den endringen. Derav
+          føler vi den estetiske representasjonen av menyen til restauranten
+          fremstår som elegant og veldefinert. Andre endringer vi har tatt er at
+          vi har valgt å endre skrifttypen fra den planlagte helvetica til en
+          litt mer estetisk pen skrifttype kalt Lucida Handwriting (Lucida
+          Handwriting er støttet av alle nettlesere). Videre valgte å ha selve
+          meny-tittelen og den korte deskriptive beskrivelsen av restauranten
+          sin mat i skrifttypen Papyrus. Dette er et valg som vi bevisst gjorde
+          fordi vi syntes de gjorde siden finere. Av estetiske årsaker føler vi
+          at to ulike skrifttyper på menyen bidro til å skape dybde og spill i
+          en ellers ren og enkel meny-side. Bakgrunnsfargen på menyen skulle
+          etter planen være i en mørk hvitfarge, og mer spesifikt gikk vi for en
+          grålig hvitfarge (rgb(195, 199, 199)).
+        </p>
+        <p>
+          Endringer på Bookingsiden (bordreservasjon.html og bookbord.js):
+          Bookingsiden har blitt laget med form i HTML, hvor man taster inn de
+          forskjellige typene inputs. Dette er navn, epost, mobilnr, antall
+          personer (fra 1-8), dato og tidspunkt. Er man flere enn 8 personer
+          blir man bedt om å sende en epost for booking av bord. I
+          JavaScriptfilen så henter denne inn dagens dato og fjerner alle datoer
+          før denne, slik at det ikke er mulig å reservere bord før dagens dato.
+          Deretter vil koden sjekke om mobilnummeret er ulikt 8 siffer, og ber
+          en taste inn på nytt dersom det er det. Så sjekker scriptet om
+          tidspunktet en har tastet inn er før nåværende tidspunkt, før den
+          sjekker om tidspunktet er mellom 16:00 og 22:00, ettersom
+          åpningstidene til restauranten er 16:00-23:00. Til slutt vil en alert
+          vises, hvor alt av input blir listet opp i en melding om at bookingen
+          er godkjent. Endringene fra den originale planen i P2 er at input for
+          tidspunkt ikke er en liste med forslag til tidspunkt, da en taster inn
+          tidspunktet manuelt. Det ble også skrevet i P2 at det blir sendt en
+          epost med bookingen til reservasjonen til eposten som ble fylt inn,
+          men dette blir heller ikke gjort. Det blir kun laget en alert som sier
+          at dette er tilfellet. Det ble også nevnt at det er en funksjon som
+          som sjekker ledige plasser for ønsket antall personer. Dette er ikke
+          tilfellet, da det ikke er noen backend som logger hvilke tidspunkt som
+          er reservert. Bookingen er heller ikke likt det som ble illustrert med
+          figma-bildene i P2. HTML-formen er vertikalt med de forskjellige
+          inputtene, mens på bildene er det en kalender med inputs ved siden.
+        </p>
+        <p>
+          Endringer på navigasjonsbaren (navigasjonsbar.js): Vi hadde originalt
+          planlagt at navbaren skulle ha en roll-down funskjon, når man holdt
+          over f.eks meny i navigasjonsbaren, ville man få ulike forslag som A
+          la carte meny, 3-4-5 retters middag, vinkart, engelsk meny etc. Dette
+          valgte vi å se bort ifra fordi det var til lite nytte og hadde tatt
+          bort en del tid fra å kunne jobbet på annen kode.
+        </p>
+        <p>
+          Endringer i kontaktoss: Vi la til en facebook logo, og fjærnet linkene
+          knyttet til sosiale medier.
+        </p>
+        <p>
+          Vi løste modularitet ved bruk av JavaScript. Navigasjonsbaren blir
+          lastet inn ved hjelp av navigasjonsbar.js. Videre lastes kontakt
+          oss-siden inn i footeren ved bruk av kontaktoss.js. På denne måten
+          behøver vi bare skrive koden en gang, istedenfor å måtte skrive den i
+          alle de ulike HTML-filene.
+        </p>
+      </section>
+
+      <section id="mappestruktur">
+        <h2>4. Oppdatert mappestruktur</h2>
+
+        <ul>
+          <li>bordreservasjon.html</li>
+          <li>hjemskjerm.html</li>
+          <li>menu.html</li>
+          <li>sokejobb.html</li>
+          <li>
+            css
+            <ul>
+              <li>style.css</li>
+            </ul>
+          </li>
+          <li>
+            scripts
+            <ul>
+              <li>bildegalleri.js</li>
+              <li>bookbord.js</li>
+              <li>kontaktoss.js</li>
+              <li>navigasjonsbar.js</li>
+            </ul>
+          </li>
+          <li>
+            Images
+            <ul>
+              <li>despina-galani-pXzOEx81181-unsplash.jpg</li>
+              <li>Greskmat1.jpg</li>
+              <li>Greskmat2.jpg</li>
+              <li>Greskmat3.jpg</li>
+              <li>Greskmat4.jpg</li>
+              <li>LogoSample_ByTailorBrands-Kopi.jpg</li>
+              <li>xuan-nguyen-Pia3omPpQus.jpg</li>
+            </ul>
+          </li>
+          <li>
+            Icon
+            <ul>
+              <li>4202107facebookfblogosocialsocialmedia-115710_115591.png</li>
+              <li>baseline_phone_white_48dp.png</li>
+              <li>baseline_place_white_48dp.png</li>
+              <li>download__1_-removebg-preview.png</li>
+              <li>eggIcon.png</li>
+              <li>milkIcon.png</li>
+              <li>outline_email_white_48dp.png</li>
+              <li>outline_schedule_white_48dp.png</li>
+              <li>wheatIcon.png</li>
+            </ul>
+          </li>
+        </ul>
+        <table>
+          <thead>
+            <tr>
+              <th>Filnavn</th>
+              <th>Beskrivelse</th>
+              <th>Hovedansvar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>hjemskjerm.html</td>
+              <td>
+                Hjemskjermen, den første siden man kommer til når man åpner
+                linken
+              </td>
+              <td>Iselin</td>
+            </tr>
+            <tr>
+              <td>meny.html</td>
+              <td>
+                Menyen, her vil det være en oversikt over hva restauranten har
+                av mat
+              </td>
+              <td>Julie</td>
+            </tr>
+            <tr>
+              <td>reservasjoner.html</td>
+              <td>Denne siden vil inneholde muligheter for bordbestilling</td>
+              <td>Martin</td>
+            </tr>
+            <tr>
+              <td>sokejobb.html</td>
+              <td>
+                Her vil det være info om hvordan man kan søke jobb på
+                restauranten
+              </td>
+              <td>Sindre</td>
+            </tr>
+            <tr>
+              <td>navigasjonsbar.js</td>
+              <td>
+                Vi skal ha en navigasjonsbar som skal være på alle html-filene i
+                javascript med rolldown til menyen: slik at man vil se kort om
+                hva menyen innholder
+              </td>
+              <td>Sigve</td>
+            </tr>
+            <tr>
+              <td>bildegalleri.js</td>
+              <td>
+                Bildegalleri som ruller slik at man får se maten restauranten
+                har
+              </td>
+              <td>Iselin</td>
+            </tr>
+            <tr>
+              <td>bookbord.js</td>
+              <td>
+                Bordreservasjon: vil gjøre det mulig for kunden å velge antall
+                personer og dato bord skal bookes
+              </td>
+              <td>Martin</td>
+            </tr>
+            <tr>
+              <td>kontaktinfo.js</td>
+              <td>
+                Vi vil lage en footer med kontaktinfo som skal være på alle
+                html-filene i javascript
+              </td>
+              <td>Sindre</td>
+            </tr>
+            <tr>
+              <td>styling.css</td>
+              <td>Stylingen til hele nettsiden</td>
+              <td>Alle</td>
+            </tr>
+            <tr>
+              <td>Siste kontroll</td>
+              <td>Sjekke at alt ser bra ut før vi leverer</td>
+              <td>Alle</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="Ansvar">
+        <h2>5. Hvordan hver enkelt har oppfylt sitt ansvarsområde</h2>
+        <p>
+          Alle har støttet hverandre gjennom prosjektet. Når noen har trengt
+          hjelp så har noen andre på gruppen hjulpet. Gruppemedlemmene har for
+          det meste holdt seg til sitt ansvarsområde.
+        </p>
+        <p>
+          Martin har laget bordreservasjon.html og booking.js, samt skrevet
+          relevant info for denne siden i style.css. Han har validert alle
+          HTML-filene til nettsiden (med unntak av menu.hmtl, hvor det var
+          Julie). Iselin hjalp til med å lage form i booking.js.
+        </p>
+        <p>
+          Sindre har laget kontakoss.js og skrevet CSS relatert til dette. Han
+          har også hjulpet i annen JavaScript.
+        </p>
+        <p>Iselin har laget hjemskjerm.html og bildegalleri.js.</p>
+        <p>
+          Julie har laget menu.html og validert denne. Hun har også validert
+          style.css.
+        </p>
+        <p>
+          Sigve har laget navigasjonsbar.js, sørget for modularitet samt
+          validert style.css og sjekket at stylingen ser bra ut.
+        </p>
+      </section>
+    </main>
+    <footer class="footer">
+      Gruppe 27: Julie, Martin, Sigve, Sindre and Iselin
+    </footer>
+  </body>
+  <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+      <img
+        style="border: 0; width: 88px; height: 31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss"
+        alt="Valid CSS!"
+      />
+    </a>
+  </p>
+</html>
