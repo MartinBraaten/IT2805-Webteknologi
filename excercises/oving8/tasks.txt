@@ -1,0 +1,11 @@
+1. let ctx = document.getContext("webgl")
+2. 
+ context.beginPath()
+ context.arc(100,100,50,0,2*Math.PI) // Draws arc at x=100, y=100, r=50, startAngle = 0, endAngle = 2*PI (full circle)
+ context.fillStyle = 'blue'            
+ context.fill()
+ context.stroke()
+3. 
+ const countries = ['Norway', 'Sweden', 'Denmark', 'New Zealand'];
+ const shorterCountriesStartingWithN = countries.filter(country => country.startsWith("N"));
+

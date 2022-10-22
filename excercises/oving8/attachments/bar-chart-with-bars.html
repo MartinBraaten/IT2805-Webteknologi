@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tax forms: Bar chart with lines</title>
+    <meta charset="UTF-8" />
+    <script src="taxForms.js"></script>
+  </head>
+  <body>
+    <canvas id="chart" width="700" height="550"></canvas>
+
+    <script>
+      const canvas = document.getElementById("chart");
+      const context = canvas.getContext("2d");
+
+      /* Draw a line from (fromX, fromY) to (toX, toY) */
+      function drawLine(fromX, fromY, toX, toY) {
+        context.beginPath();
+        context.moveTo(toX, toY);
+        context.lineTo(fromX, fromY);
+        context.stroke();
+      }
+
+      /* Draw a text (string) on (x, y) */
+      function drawText(text, x, y) {
+        context.fillStyle = "black";
+        context.fillText(text, x, y);
+      }
+
+      /* Draw a text and with a line to its right */
+      function drawLineWithText(text, fromX, fromY, toX, toY) {
+        drawText(text, fromX - 50, fromY + 10);
+        drawLine(fromX, fromY, toX, toY);
+      }
+
+      /* Insert your code here. */
+      const canvasWidth = context.canvas.width;
+      const canvasHeight = context.canvas.height;
+      let numberOfLines = 10;
+      const ratio = canvasHeight / numberOfLines;
+      const ratiowidth = canvasWidth / numberOfLines;
+
+      //for (i = numberOfLines; i < canvasHeight; i += ratio) {
+      //  drawLineWithText(numberOfLines * 100000, 50, i, canvasWidth - 100, i);
+      //  numberOfLines--;
+      //}
+
+      for (i = 0; i < numberOfLines; i++) {
+        drawLineWithText(
+          (numberOfLines - i) * 100000,
+          50,
+          i * 50 + 20,
+          canvasWidth - 100,
+          i * 50 + 20
+        );
+      }
+
+      function createColorBars(color, x, y, width, height, text) {
+        drawText(text, x + width + 5, y + height - 6);
+        context.fillStyle = color;
+        context.fillRect(x, y, width, height);
+      }
+
+      createColorBars("red", canvasWidth - 90, 20, 40, 20, "Income");
+      createColorBars("blue", canvasWidth - 90, 50, 40, 20, "Wealth");
+
+      for (i = 0; i < taxForms.length; i++) {
+        createColorBars(
+          "red",
+          ratiowidth * (2.5 * i + 1) + 20,
+          numberOfLines * 50 + 20,
+          ratio,
+          (-taxForms[i].income / 100000) * 50,
+          ""
+        );
+        createColorBars(
+          "blue",
+          ratiowidth * (2.5 * i + 2) + 10,
+          numberOfLines * 50 + 20,
+          ratio,
+          (-taxForms[i].wealth / 100000) * 50,
+          ""
+        );
+      }
+    </script>
+  </body>
+</html>

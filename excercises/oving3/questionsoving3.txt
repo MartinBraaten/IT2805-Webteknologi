@@ -1,0 +1,6 @@
+1. The difference between "position: fixed" and "position: absolute" is that the fixed stays in the same position in the browser, rather than the containing element like the absolute.
+
+2. To access a third element, we can use the nth-of-type() selector. E.g:
+p:nth-of-type(3) {
+   background: blue;
+}

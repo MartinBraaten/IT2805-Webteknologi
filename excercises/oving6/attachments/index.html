@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tax form</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form
+      action="https://folk.ntnu.no/anderobs/webtek/receive_form.php"
+      method="post"
+    >
+      <div id="content">
+        <label for="name">Real name: </label><br />
+        <input type="text" name="name" id="name" required /><br />
+
+        <label for="gender">Gender: </label><br />
+        <select name="gender" id="gender" required>
+          <option value="" disabled selected>Choose gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option></select
+        ><br />
+
+        <label for="email">E-mail:</label><br />
+        <input type="email" name="email" id="email" required /><br />
+
+        <label for="birthdate">Birthdate: </label><br />
+        <input
+          type="date"
+          name="birthdate"
+          id="birthdate"
+          max="1987-12-31"
+          required
+        /><br />
+
+        <label for="heroname">Hero name: </label><br />
+        <input type="text" name="heroname" id="heroname" required /><br />
+
+        <label for="spandex">Do you wear spandex?: </label>
+        <input type="checkbox" name="spandex" id="spandex" /><br />
+
+        <label for="strength">Strength (from 1 to 10): </label><br />
+        <input
+          type="number"
+          name="strength"
+          id="strength"
+          min="1"
+          max="10"
+          required
+        /><br />
+
+        <label for="speed">Speed (from 1 to 10): </label><br />
+        <input
+          type="number"
+          name="speed"
+          id="speed"
+          min="1"
+          max="10"
+          required
+        /><br />
+
+        <label for="intelligence">Intelligence (from 1 to 10): </label><br />
+        <input
+          type="number"
+          name="intelligence"
+          id="intelligence"
+          min="1"
+          max="10"
+          required
+        /><br />
+
+        <label for="income">Income: </label><br />
+        <input type="number" name="income" id="income" min="0" required /><br />
+
+        <label for="wealth">Wealth: </label><br />
+        <input type="number" name="wealth" id="wealth" min="0" required /><br />
+
+        <label for="tax">Tax: </label><br />
+        <input type="number" name="tax" id="tax" value="0" disabled /><br />
+
+        <input type="submit" id="submit" value="Submit tax form" />
+      </div>
+    </form>
+    <script src="javascript.js"></script>
+  </body>
+</html>

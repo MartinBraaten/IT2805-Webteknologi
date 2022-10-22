@@ -1,0 +1,10 @@
+Questions:
+1. Inline style CSS using "style=".."" overrides external style sheets because it is more specific. From most to least specific: Style attributes, ID, class, pseudo class, attribute, elements.
+
+2. ID is used for elements that are used once, while class are used for elements that are used multiple times. ID's can be used to locate the element on the page in the URL, while classes can not. 
+
+3. RGBA is short for red, green, blue and alpha. It is a model for color, and alpha is for making the color model opaque. 
+
+4. It is preferred to have the css inside the head element, since the styles will have loaded already. If not, it will take some time before the CSS style loads, and the page might have to be re-rendered. 
+
+5. Using "article > p" will match all the p elements inside the article tags.

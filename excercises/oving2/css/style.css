@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(170, 170, 170);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
+p {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: rgb(66, 78, 146);
+  font-family: Verdana, Geneva;
+}
+h2 {
+  color: rgb(165, 79, 79);
+  font-family: Verdana, Geneva;
+}
+img {
+  max-width: 150px;
+  height: 150px;
+}
+.frame {
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgb(158, 81, 81);
+  background: rgb(0, 0, 0);
+  margin: auto;
+  padding: 0px 0px;
+}

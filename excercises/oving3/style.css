@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+}
+
+/* Part 4 */
+
+ul > li {
+  list-style-type: square !important;
+}
+
+ul > li:last-child {
+  color: blue;
+}

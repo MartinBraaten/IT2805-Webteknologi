@@ -1,0 +1,5 @@
+1. The expression is evaluated to false due to the fact that javascript stores number in 64 bits. It can not represent numbers that are not a power of 2 accurately.
+2. It  specifies whether to send the data with GET or POST.
+3. When changed to get, the browser sends an empty body to the server, and the data is therefore added to the URL.
+4. Because it is not enough to only validate on client side. Client side is used for instant feedback, while server side is for security.
+5. When the input is more like a paragraph instead of a short input. 

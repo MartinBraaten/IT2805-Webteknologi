@@ -1,0 +1,40 @@
+body {
+  background-image: url(../images/theavengers.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+form {
+  display: block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+  line-height: 28px;
+}
+#content {
+  display: inline-block;
+  text-align: left;
+}
+label {
+  font-weight: 600;
+}
+
+#submit {
+  height: 40px;
+  width: 150px;
+  background: #00a8d6;
+  color: white;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 50px;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
